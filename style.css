@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1.main{
+    padding: 50px;
+    background-color: rgb(245, 151, 167);
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 20px;
+    background-color: rgb(57, 55, 55);
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+header li{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 30px;
+    
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+}
+.hoses{
+    margin-top: 70px;
+}
